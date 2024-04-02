@@ -3,7 +3,7 @@
     <div
       class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 max-w-screen-2xl m-auto"
     >
-      <VideoItem  v-for="(_item, i) in 20" :key="i" :i="i"/>
+      <VideoItem v-for="(_item, i) in 20" :key="i" :i="i" />
     </div>
   </main>
 </template>
